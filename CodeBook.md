@@ -1,7 +1,7 @@
 ## Code Book UCI_HAR_Dataset
 The data relates to an assigment task based on the Human Activity Recognition Using Smartphones Dataset (v.1.0) byJorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto (Smartlab - Non Linear Complex Systems Laboratory, www.smartlab.ws). 
 The data come from an experiment with two groups (indicated by the TRAIN or TEST value) of persons (the subjects variable) wearing a smartphone (Samsung Galaxy S II) and performing six activities indicated by the activities feature (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
-The full dataset comprises 561 measurements. The tidy dataset compiles the  averages of the 64 mean and standard variation values for the following measurements:  
+The full dataset comprises 561 measurements. The tidy dataset compiles the  averages of the 64 mean and standard variation of time and Fast Fourier Transformation values for the following measurements:  gravity, gyro, magnitude, jerk.
 
 "1.time.body.accelleration.mean.-X"
 "2.time.body.accelleration.mean.-Y"
