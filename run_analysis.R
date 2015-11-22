@@ -89,6 +89,6 @@ rownames(fullDataSetTidy) = seq_along(fullDataSetTidy$averages)
 
 # Not requested but saving the results of analyses makes perhaps some sense ...
 print ('Save results.')
-
+write.table(fullDataSet, file ="UCI_HAR_Dataset.txt", row.name=FALSE)
 write.table(fullDataSetTidy, file ="UCI_HAR_DatasetTidy.txt", row.name=FALSE)
 print ('Sucess.')
