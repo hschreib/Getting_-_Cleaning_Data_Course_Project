@@ -1,5 +1,5 @@
 # Getting_-_Cleaning_Data_Course_Project
-The project is part of the Coursera Getting & Cleaning Data Course. It constists of a R source file processing the different steps in cleaning up the UCI_HAR_Dataset (see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) available from . 
+The project is part of the Coursera Getting & Cleaning Data Course. It constists of a R source file processing the different steps in cleaning up the UCI_HAR_Dataset (see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 # The R script
 The script run_analysis.R should be located in the same folder as the unzipped data set, together with the features.txt file. The evaluated data comes from the https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . Note that not all data is processed by the analyis. The respective intertial signals are ignored.
